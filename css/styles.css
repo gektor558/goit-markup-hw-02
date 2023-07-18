@@ -79,7 +79,7 @@ body {
 }
 
 .title-button {
-    font-family: "Roboto", sans-serif;
+    font-family: inherit;
     background-color: #4D5AE5;
     font-family: "Roboto";
     font-weight: 500;
