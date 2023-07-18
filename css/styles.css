@@ -13,3 +13,11 @@
     text-transform: uppercase;
     color: #4d5ae5;
 }
+
+link {
+    text-decoration: none;
+}
+
+.span-logo {
+    color: #2e2f42;
+}
