@@ -3,7 +3,7 @@
     --secondary-font: "Raleway", sans-serif;
 }
 
-.body {
+body {
     font-family: var(--primary-font);
     color: #434455;
     background-color: #ffffff;
