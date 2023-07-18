@@ -9,6 +9,23 @@ body {
     background-color: #ffffff;
 }
 
+/* ----------------Header Section----------------*/
+
+.adress {
+    font-style: normal;
+}
+
+.mail {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+
+.mail:hover,
+.mail:focus {
+    color: #404bbf;
+}
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -21,6 +38,12 @@ body {
 
 .link {
     text-decoration: none;
+    
+}
+
+.link:hover,
+.link:focus {
+    color: #404bbf
 }
 
 .span-logo {
