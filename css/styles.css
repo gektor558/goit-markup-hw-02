@@ -78,7 +78,7 @@ body {
     color: #ffffff;
 }
 
-.title-button-section1{
+.title-button{
     font-family: inherit;
     background-color: #4D5AE5;
     font-weight: 500;
@@ -89,8 +89,8 @@ body {
     cursor: pointer;
 }
 
-.title-button-section1:hover,
-.title-button-section1:focus {
+.title-button:hover,
+.title-button:focus {
     background-color: #404BBF;
 }
 
