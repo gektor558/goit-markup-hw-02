@@ -166,9 +166,19 @@ body {
     cursor: pointer;
 }
 
+.list-button {
+    font-family: inherit;
+    background-color: #F4F4FD;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4d5ae5;
+    cursor: pointer;
+}
 
-.title-button:hover,
-.title-button:focus {
+.list-button:hover,
+.list-button:focus {
     background-color: #404BBF;
     color: #FFFFFF;
 }
