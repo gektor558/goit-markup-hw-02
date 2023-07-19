@@ -89,8 +89,8 @@ body {
     cursor: pointer;
 }
 
-.title-button:hover,
-.title-button:focus {
+.title-button-section1:hover,
+.title-button-section1:focus {
     background-color: #404BBF;
 }
 
