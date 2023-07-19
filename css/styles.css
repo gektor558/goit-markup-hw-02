@@ -47,7 +47,7 @@ body {
     color: #404bbf
 }
 
-.span-logo {
+.span-logo-top {
     color: #2e2f42;
 }
 
@@ -146,4 +146,8 @@ body {
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+}
+
+.span-logo-bottom {
+    color: #f4f4fd;
 }
