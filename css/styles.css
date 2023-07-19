@@ -151,3 +151,43 @@ body {
 .span-logo-bottom {
     color: #f4f4fd;
 }
+
+
+
+
+.title-button {
+    font-family: inherit;
+    background-color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4d5ae5;
+    cursor: pointer;
+}
+
+
+.title-button:hover,
+.title-button:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
+
+.list {
+    list-style: none;
+}
+
+.list-portfolio {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.list-description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
