@@ -180,8 +180,21 @@ p, ul {
 
 /* ----------------Second Section----------------*/
 
+.features-section {
+    padding: 120px 0;
+}
+
 .features-container {
     margin: 120px 156px;
+}
+
+.features-menu {
+    display: flex;
+    gap: 24px;
+}
+
+.features-list {
+    calc((100% - 72px) / 4);
 }
 
 .features-title-top {
