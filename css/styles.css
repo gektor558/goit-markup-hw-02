@@ -1,30 +1,80 @@
 :root {
     --primary-font: "Roboto", sans-serif;
     --secondary-font: "Raleway", sans-serif;
+    --main-color: #434455;
+    --first-color: #404BBF;
+    --second-color: #2e2f42;
+    --third-color: #4d5ae5;
+    --fourth-color: #F4F4FD;
+    --white: #FFFFFF;
 }
 
 body {
     font-family: var(--primary-font);
-    color: #434455;
-    background-color: #ffffff;
+    color: var(--main-color);
+    background-color: var(--white);
 }
 
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p, ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.container {
+    max-width: 1158px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.button {
+    background-color: var(--white);
+    border: none;
+    color: var(--white);
+    background-color: var(--third-color);
+}
+
+
 /* ----------------Header Section----------------*/
+
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.page-navigation {
+    display: flex;
+    align-items: center;
+}
 
 .address {
     font-style: normal;
 }
 
+.page-header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
 .contacts {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--main-color);
 }
 
 .mail:hover,
 .mail:focus {
-    color: #404bbf;
+    color: var(--first-color);
 }
 
 .logo {
@@ -34,7 +84,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color: var(--third-color);
 }
 
 .link {
@@ -44,15 +94,17 @@ body {
 
 .link:hover,
 .link:focus {
-    color: #404bbf
+    color: var(--first-color);
 }
 
 .span-logo-top {
-    color: #2e2f42;
+    color: var(--second-color);
 }
 
 .list {
+    display: flex;
     list-style: none;
+    column-gap: 40px;
 }
 
 .studiolist {
@@ -60,65 +112,92 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: var(--second-color);
 }
 
 
 /* ----------------First Section----------------*/
 
+
 .section-first {
-    background-color: #2e2f42;
+    background-color: var(--second-color);
+    text-align: center;
+    margin: auto;
+    padding: 188px 0;
+}
+
+.title-container {
+    display: block;
 }
 
 .title {
+    margin-bottom: 48px;
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
 }
 
+.main-title {
+    margin: 72px;
+}
+
 .title-button{
-    font-family: inherit;
-    background-color: #4D5AE5;
+    padding: 16px 32px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #ffffff;
+    color: var(--white);
     cursor: pointer;
 }
 
 .title-button:hover,
 .title-button:focus {
-    background-color: #404BBF;
+    background-color: var(--first-color);
 }
 
 /* ----------------Second Section----------------*/
 
+.features-container {
+    margin: 120px 156px;
+}
+
+.features-title-top {
+    padding-bottom: 8px;
+    margin-bottom: 0;
+}
+
 .features-title {
+    margin: 0 0 8px 0;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: var(--second-color);
 }
 
 .features-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--main-color);
 }
 
 /* ----------------Third Section----------------*/
+
+.aboutus-container {
+    margin-bottom: 120px;
+}
 
 .aboutus {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
-    color: #2e2f42;
+    color: var(--second-color);
     letter-spacing: 0.02em
 }
 
@@ -127,59 +206,80 @@ body {
 
 
 .team {
-    background-color: #F4F4FD;
+    background-color: var(--fourth-color);
+}
+
+.team-container {
+    padding-bottom: 120px;
+}
+
+.features-title-bottom {
+    margin-top: 32px;
 }
 
 .team-list {
+    border-radius: 4px ;
+    text-align: center;
     background-color: #FFFFFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.features-text-bottom {
+    padding-bottom: 32px;
+}
+
+.ourteam {
+    padding-top: 120px;
 }
 
 
 /* ----------------Footer----------------*/
 
+
+.footer-container{
+    display: block;
+    padding-top: 101.5px;
+    align-items: center;
+}
+
+
 .footer {
-    background-color: #2e2f42;
+    background-color: var(--second-color);
 
 }
 
 .footer-text {
+    padding-bottom: 100px;
+    margin-top: 17.5px;
+    max-width: 264px;
     line-height: 1.5;
-    color: #F4F4FD;
+    color: var(--fourth-color);
     letter-spacing: 0.02em;
 }
 
 .span-logo-bottom {
-    color: #f4f4fd;
+    color: var(--fourth-color);
 }
 
 
+/* ----------------Portfolio----------------*/
 
 
-.title-button {
-    font-family: inherit;
-    background-color: #4D5AE5;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-    cursor: pointer;
-}
 
 .list-button {
     font-family: inherit;
-    background-color: #F4F4FD;
+    background-color: var(--fourth-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #4d5ae5;
+    color: var(--third-color);
     cursor: pointer;
 }
 
 .list-button:hover,
 .list-button:focus {
-    background-color: #404BBF;
+    background-color: var(--first-color);
     color: #FFFFFF;
 }
 
@@ -189,12 +289,48 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: var(--second-color);
 }
 
 .list-description {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--main-color);
 }
+
+.gallery-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+} 
+
+.portfolio-container {
+    padding: 32px 16px;
+    border: 1px solid #E7E9FC;
+    border-top: none;
+}
+
+.porfolio-list {
+    flex-basis: calc(
+        (100% - ( 2 * 24px ) / 3)
+    );
+}
+
+
+
+
+
+.hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+  
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
