@@ -104,7 +104,7 @@ p, ul {
     color: var(--second-color);
 }
 
-.ladress-list {
+.address-list {
     display: flex;
     gap: 40px
     list-style: none;
