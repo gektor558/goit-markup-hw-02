@@ -27,6 +27,7 @@ p, ul {
 }
 
 .container {
+    padding: 0 15px;
     max-width: 1158px;
     margin-left:auto;
     margin-right:auto;
@@ -61,6 +62,7 @@ p, ul {
 }
 
 .page-header {
+    border-bottom: 1px solid #e7e9fc;
     padding-top: 24px;
     padding-bottom: 24px;
   }
@@ -79,6 +81,7 @@ p, ul {
 
 .logo {
     font-family: "Raleway", sans-serif;
+    margin-right: 76px;
     font-weight: 800;
     font-size:18px;
     line-height: 1.17;
@@ -101,13 +104,25 @@ p, ul {
     color: var(--second-color);
 }
 
-.list {
+.ladress-list {
     display: flex;
+    gap: 40px
     list-style: none;
     column-gap: 40px;
 }
 
-.studiolist {
+.menu {
+    gap: 40px;
+}
+
+/* .menu-list {
+    padding: 24px 0;
+} */
+
+
+
+.studiolink {
+    padding: 24px 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
